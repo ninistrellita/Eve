@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: url(../img/Fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: #ffb9e2;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones button {
+    background-color: #ffb9e2;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .4s ease;
+    border-radius: 20px;
+}
+
+.botones a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.botones button:hover {
+    background-color: #ff96d3;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
